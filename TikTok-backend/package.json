@@ -1,18 +1,22 @@
 {
-  "name": "tiktok-backend",
-  "version": "1.0.0",
-  "description": "TicTok backend",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "Dungngo4520",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.6",
-    "nodemon": "^2.0.4"
-  }
+	"name": "tiktok-backend",
+	"version": "1.0.0",
+	"description": "TicTok backend",
+	"main": "server.js",
+	"type": "module",
+	"engines": {
+		"node": ">=13.x.x",
+		"npm": ">=3.9.5"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"author": "Dungngo4520",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.10.6",
+		"nodemon": "^2.0.4"
+	}
 }
